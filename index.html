@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=1024, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>El rincón del maíz</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="container-logo">
+						<i class="fa-solid fa-cake"></i>
+						<h1 class="logo"><a href="/">El rincon del maiz</a></h1>
+					</div>
+				</div>
+			</div>
+			<div class="container-navbar">
+				<nav class="navbar container">
+				</nav>
+			</div>
+		</header>
+
+		<section class="banner">
+			<sytle>
+				html{
+					scroll-behavior: smooth;
+				}
+				<div class="content-banner">
+					<p>Repostería artesanal</p>
+					<h2>100% Natural <br /> Ingredientes de primera calidad</h2>
+					<a href="#contacto">Contactar</a>
+				</div>
+			</sytle>
+		</section>
+
+		<main class="main-content">
+
+			<section class="container top-categories">
+				<h1 class="heading-1">Categorías</h1>
+				<div class="container-categories">
+					<div class="card-category category-historia">
+						<p>Nuestra Historia</p>
+						<label for="toggle-1" class="toggle-btn">Ver más</label>
+						<input type="checkbox" id="toggle-1" class="toggle-checkbox">
+						<div class="overlay"></div>
+						<div class="floating-info">
+							<button class="close-btn" onclick="document.getElementById('toggle-1').checked = false;">&times;</button>
+							<p><b>Descubre Nuestra Historia</b>
+								<br><br>Nuestra pasión por el elote nos inspira cada día a crear platillos que son más que simples recetas: 
+								son un homenaje a lo mejor de nuestras raíces.
+								<br><br>Todo comenzó en la primera edición de la feria gastronómica del elote, 
+								cuando montamos una simple mesa llena de ilusión y ganas de compartir lo que más amamos: 
+								el elote. 
+								<br><br>Año tras año, con esfuerzo, dedicación y el deseo constante de mejorar, nos lanzamos 
+								a la aventura de probar nuevas recetas, perfeccionando cada una mediante prueba y error. 
+								<br><br>Poco a poco, esa búsqueda nos llevó a innovar, a arriesgarnos y a construir lo que somos hoy.
+								Cada plato que ofrecemos es el resultado de ese camino, de una tradición que evolucionó con el tiempo 
+								y que hoy refleja nuestra entrega y amor por lo que hacemos.
+							</p>
+						</div>
+					</div>
+			
+					<div class="card-category category-productos">
+						<p>Productos</p>
+						<label for="toggle-2" class="toggle-btn">Ver más</label>
+						<input type="checkbox" id="toggle-2" class="toggle-checkbox">
+						<div class="overlay"></div>
+						<div class="floating-info">
+							<button class="close-btn" onclick="document.getElementById('toggle-2').checked = false;">&times;</button>
+							<p><b>Descubre el Sabor de Nuestros Productos.</b>
+								<br><br>Sumérgete en nuestra deliciosa variedad de productos, todos hechos con el toque especial del elote, 
+								desde lo más tradicional hasta creaciones que te sorprenderán, cada uno de nuestros platillos está lleno de sabor y tradición.
+								<br><br>Disfruta de nuestro esponjoso pan de elote, el irresistible pay de elote y el suave flan de elote. 
+								Atrévete a probar el auténtico chileatole o nuestras tortillas de elote, perfectas como un snack ocasional. 
+								<br><br>Y para acompañar, no puede faltar una taza de nuestro aromático café o el reconfortante ponche, ideal para cualquier ocasión.
+								Cada producto es una invitación a disfrutar el calor de lo casero, lleno de tradición y sabor.
+							</p>
+						</div>
+					</div>
+			
+					<div class="card-category category-nosotros">
+						<p>Un poco de nosotros</p>
+						<label for="toggle-3" class="toggle-btn">Ver más</label>
+						<input type="checkbox" id="toggle-3" class="toggle-checkbox">
+						<div class="overlay"></div>
+						<div class="floating-info">
+							<button class="close-btn" onclick="document.getElementById('toggle-3').checked = false;">&times;</button>
+							<p>
+								<b>Un poco de nosotros</b>
+								<br><br>En cada bocado de nuestros productos, llevas contigo una parte de nuestra historia. Somos una familia que ha hecho del elote su vida,
+								sembrándolo con amor en nuestras propias tierras, igual que lo hicieron nuestros abuelos. Desde el campo hasta tu mesa, todo lo que 
+								hacemos es artesanal, hecho a mano, con la dedicación y el cariño que sólo el hogar puede brindar.
+								<br>Seleccionamos cada ingrediente con el mismo cuidado con el que cocinamos para los nuestros. 
+								Queremos que cada sabor te recuerde a casa, a esos momentos simples y auténticos que te hacen sentir bien. 
+								<br><br>Porque en cada detalle, desde la semilla hasta el plato final, lo que más importa es compartir contigo lo mejor de lo nuestro.
+								<br><br>Aquí, lo tradicional se une con lo familiar, y cada producto que hacemos está lleno del sabor y la calidez que solo puede venir de casa.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+			<section class="container top-products">
+				<h1 class="heading-1">Nuestros Productos</h1>
+
+				<div class="container-options">
+					<span class="active">Destacados</span>
+				</div>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Pan_Elote.jpeg" alt="Pan Elote" />
+							<div class="button-group">
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Pan de Elote</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa fa-cake"></i>
+								</span>
+								<p class="price">$120.00</p>
+								<span class="add-cart">
+									<i class="fa-solid fa-pizza-slice"></i>
+								</span>
+								<p class="price">$30.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Un esponjoso y dulce pan elaborado con elotes tiernos, 
+									e ingredientes de la mejor calidad 
+									resaltando el sabor natural del maíz. 
+									<br><br>Pionero de nuestra historia,
+									este pan es una delicia que no te puedes perder.
+								</p>
+							</div>
+						</div>
+					</div>
+											<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Pay_Elote.jpeg" alt="Pay Elote" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3>Pay de Elote</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa fa-cake"></i>
+								</span>
+								<p class="price">$140.00</p>
+								<span class="add-cart">
+									<i class="fa-solid fa-pizza-slice"></i>
+								</span>
+								<p class="price">$35.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Con una textura suave y cremosa, 
+									este pay mezcla lo mejor del elote con un toque de 
+									vainilla. 
+									<br><br>Una de las estrellas más buscadas por su sabor y textura inigualable.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Producto 3 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Imposible_Elote.jpeg" alt="Imposible Elote" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Imposible de Elote</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa fa-cake"></i>
+								</span>
+								<p class="price">$160.00</p>
+								<span class="add-cart">
+									<i class="fa-solid fa-pizza-slice"></i>
+								</span>
+								<p class="price">$40.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Este postre combina flan de elote y pan de elote, 
+									creando una fusión irresistible. 
+									<br><br>En el tranascurso de nuestra historia, es el postre 
+									más innovador que destacan por su equilibrio de sabor y textura.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Producto 4 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Flan_Elote.jpeg" alt="Flan Elote" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3>Flan de elote</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa fa-cake"></i>
+								</span>
+								<p class="price">$120.00</p>
+								<span class="add-cart">
+									<i class="fa-solid fa-pizza-slice"></i>
+								</span>
+								<p class="price">$30.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Un flan cremoso y suave que 
+									resalta el dulzor natural del elote. 
+									<br><br>Este postre es una tradición 
+									dentro nosotros y encanta a todos por su sencillez y sabor.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Producto 5 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Tortilla_Elote.jpeg" alt="Tortilla Elote" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Tortillas de elote</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa-solid fa-chart-pie"></i>
+								</span>
+								<p class="price">$10.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Hechas con elote fresco, estas tortillas 
+									ofrecen un sabor auténtico y una textura suave. 
+									<br><br>¡Acompañalas con cualquiera de nuestras bebidas calientes!.
+									<br><br><br><br>¡No te quedes sin probarlo! Este producto se agota rápidamente, así que asegúrate de preguntar por él.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Producto 6 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Chileatole.jpg" alt="Chileatole" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Chileatole</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa-solid fa-glass-water"></i>
+								</span>
+								<p class="price">$25.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Una bebida espesa, típica de la región, 
+									que combina maíz molido con chile, epazote y otros ingredientes. 
+									<br><br>¿Eres fan de lo picante?
+									<br><br>!Agregale nuestra salsa de chile serrano molido¡
+									<br><br><br><br>¡No te quedes sin probarlo! Este producto se agota rápidamente, así que asegúrate de preguntar por él.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Producto 7 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/cafe.jpg" alt="Cafe" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Café</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa-solid fa-mug-saucer"></i>
+								</span>
+								<p class="price">$15.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Bebida clásica hecha con café seleccionado, 
+									ofreciendo un sabor rico y aromático.
+									<br><br>Ya sea servido caliente
+									o frío, es el acompañante ideal para cualquiera de tus postres.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Producto 8 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Ponche.jpg" alt="Ponche" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Ponche</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa-solid fa-wine-glass"></i>
+								</span>
+								<p class="price">$15.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Bebida caliente a base de frutas y especias, 
+									que captura el sabor festivo de la temporada. 
+									<br><br>Perfecto para acompañar cualquier platillo en la feria.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Producto 9 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/Tamal_Elote.jpeg" alt="Tamal elote" />
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Tamal  de elote</h3>
+							<div class="pricing">
+								<span class="add-cart">
+									<i class="fa-solid fa-chart-pie"></i>
+								</span>
+								<p class="price">$15.00</p>
+							</div>
+							<div class="description">
+								<p>
+									Deliciosos tamales hechos con elote fresco, cocidos en hojas de maíz para mantener su suavidad y sabor dulce. 
+									Una tradición que celebra la esencia del maíz en cada bocado.
+									<br><br>¡Acompañalo con cuialquiera de nuestras bebidas calientes!
+									<br><br><br><br>¡No te quedes sin probarlo! Este producto se agota rápidamente, así que asegúrate de preguntar por él.
+								</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			</section>
+
+			<section class="gallery">
+				<img
+					src="img/gallery1.jpg"
+					alt="Gallery Img1"
+					class="gallery-img-1"
+				/><img
+					src="img/gallery2.jpeg"
+					alt="Gallery Img2"
+					class="gallery-img-2"
+				/><img
+					src="img/gallery3.jpeg"
+					alt="Gallery Img3"
+					class="gallery-img-3"
+				/><img
+					src="img/gallery4.jpeg"
+					alt="Gallery Img4"
+					class="gallery-img-4"
+				/><img
+					src="img/gallery5.jpg"
+					alt="Gallery Img5"
+					class="gallery-img-5"
+				/>
+			</section>
+		<footer class="footer">
+			<style>
+				/* Estilos opcionales para mejorar la apariencia */
+				details {
+					margin: 10px 0;
+					padding: 10px;
+					border: 1px solid #ddd;
+					border-radius: 4px;
+					background-color: #d2b495;
+				}
+				summary {
+					cursor: pointer;
+					font-weight: bold;
+					color: #000;
+				}
+				/* Transición suave para la expansión */
+				details > div {
+					padding: 10px;
+					border-top: 1px solid #ddd;
+				}
+			</style>
+			<div class="container container-footer" id = "contacto">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: 4° Puesto lado izquierdo, entrada principal a la coordinacion, Feria del elote Santa Ana Tlacotenco 2024
+								<br><br>Milpa Alta, CDMX 
+								<a href="https://www.google.com.mx/maps/place/ZOCALO+SANTA+ANA+TLACOTENCO/@19.1758426,-98.9976711,3a,75y,303.51h,80.4t/data=!3m7!1e1!3m5!1sFWpjgr-ccFpS8nDBu0abvA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D9.598490105973013%26panoid%3DFWpjgr-ccFpS8nDBu0abvA%26yaw%3D303.5077924398252!7i16384!8i8192!4m14!1m7!3m6!1s0x85ce1ab9692abc47:0x8d5353b78eacfab5!2sZOCALO+SANTA+ANA+TLACOTENCO!8m2!3d19.1759197!4d-98.9980398!16s%2Fg%2F11bz09jc1k!3m5!1s0x85ce1ab9692abc47:0x8d5353b78eacfab5!8m2!3d19.1759197!4d-98.9980398!16s%2Fg%2F11bz09jc1k?coh=205410&entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D">
+									<br>Da click para llegar a La Feria Gastronomica del Elote</a>
+
+							</li>
+							<li>Teléfono: 5530907730 (Maria Serrano)</li>
+						</ul>
+					</div>
+				</div>
+
+				
+
+				<div class="copyright">
+					<p>
+						Desarrollado por DAOS Creations &copy; 2024
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
